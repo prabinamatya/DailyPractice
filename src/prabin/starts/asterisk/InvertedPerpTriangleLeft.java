@@ -39,4 +39,28 @@ public class InvertedPerpTriangleLeft {
 		}
 	}
 	
+	public void upperLeftHypotenuseTriangle(int num) {
+		for(int i =1; i <= num; i++) {
+			for(int k = 1; k <= i; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+
+	public void upperRightHypotenuseTriangle(int num) {
+		int spaces = num;
+		for(int i = 1; i <= num; i++) {
+			for(int k = spaces; k >= 0; k--) {
+				System.out.print(" ");
+			}
+			
+			for(int j = 1; j <= i; j++ ) {
+				System.out.print("*");
+			}
+			System.out.println();
+			spaces--;
+		}
+	}
+	
 }

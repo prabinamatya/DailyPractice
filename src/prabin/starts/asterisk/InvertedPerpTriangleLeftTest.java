@@ -25,6 +25,16 @@ public class InvertedPerpTriangleLeftTest {
 	
 	@Test
 	public void testInvertedPyramid() throws Exception {
-		testObject.makeInvertedPyramid(11);
+//		testObject.makeInvertedPyramid(11);
+	}
+	
+	@Test
+	public void testupperLeftHypotenuseTriangle() throws Exception {
+//		testObject.upperLeftHypotenuseTriangle(11);
+	}
+	
+	@Test
+	public void testupperRightHypotenuseTriangle() throws Exception {
+		testObject.upperRightHypotenuseTriangle(11);
 	}
 }
