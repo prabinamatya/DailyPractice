@@ -40,6 +40,6 @@ public class InvertedPerpTriangleLeftTest {
 	
 	@Test
 	public void testupRightPyramid() throws Exception {
-		testObject.upRightPyramid(11);
+		testObject.upRightPyramid(25);
 	}
 }

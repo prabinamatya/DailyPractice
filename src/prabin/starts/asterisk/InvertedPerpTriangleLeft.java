@@ -64,7 +64,12 @@ public class InvertedPerpTriangleLeft {
 	}
 
 	public void upRightPyramid(int numb) {
-		int spaces = numb;
+		int spaces = 0;
+		if(numb %2 != 0) {
+			spaces = (numb+1)/2;
+		} else {
+			spaces = numb / 2;
+		}
 		for(int i = 1; i <= numb; i+=2) {
 			for(int k = spaces; k >= 0; k--) {
 				System.out.print(" ");
@@ -75,9 +80,8 @@ public class InvertedPerpTriangleLeft {
 			spaces--;
 			System.out.println();
 		}
-		
 	}
 	
-	
+	//this is test
 	
 }
