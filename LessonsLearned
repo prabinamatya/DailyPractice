@@ -1,0 +1,19 @@
+Page extends VerticalLayout {
+  private objects;
+  VL layout;
+
+  constructors(){
+    rebuild();
+  }
+
+  public void rebuild() {
+    layout = new VL();
+    layout.addComponent(buildComponents());
+    addComponent(layout);
+    setComponentAlignment(layout, Alignment.TOP_Center);
+  }                
+
+  private HL buildComponents() {
+  
+  }
+}
